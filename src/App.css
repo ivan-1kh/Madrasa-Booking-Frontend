@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@200;300;400&display=swap");
+
+* {
+  font-family: "Muli", sans-serif;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 1000px) {
+  .App {
+    margin: auto;
+    max-width: 50%;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.8), 0 2px 5px 0 rgba(0, 0, 0, 0.6);
+  }
+}
+
+.textLabel {
+  font-size: 15px;
+  margin-bottom: 0.3rem;
+}
+
+.textLabelBold {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.textLabelFaded {
+  font-size: 15px;
+  color: gray;
+  margin-bottom: 0.3rem;
+}
+
+.textLabelBlue {
+  font-size: 15px;
+  color: rgb(11, 166, 255);
+}
+
+.textLabelBlueFaded {
+  color: rgb(151, 217, 255) !important;
+}
+
+.unselectableText {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.mainContainer {
+  width: 100vw !important;
+  justify-self: center;
+  align-self: center;
+  justify-content: space-between;
+}
